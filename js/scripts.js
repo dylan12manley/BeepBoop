@@ -3,23 +3,25 @@
 // var twos = (2, 12, 20, 21 , 22, 24, 25 , 26, 27, 28, 29, 42, 52, 62, 72, 83, 92);
 // var ones = (1, 10, 11, 14, 15, 16, 17, 18, 19, 41, 51, 61, 71, 81, 91, 100);
 
+var resultsFinal = [];
 
 function stringMaker(input) {
   var results = [];
   console.log(results);
   console.log(input);
-  for (var i = 0; i < (input.length) ; i++) {
+// for (input[i])  (i = 0; i < input.length ; i++)
+  results.forEach(function(result) {
     if (input[i] === 3 ) {
-      results.push("I'm sorry, Dave. I'm afraid I can't do that.")
+      resultsFinal.push("I'm sorry, Dave. I'm afraid I can't do that.")
       console.log(results);
     } else {
-        reslts.push(results);
+        resultsFinal.push(result);
     }
-    console.log(results);
   break;
 
 
-  }
+  });
+  console.log(resultsFinal);
 };
 
 //Font End//
@@ -28,6 +30,6 @@ $(document).ready(function() {
     event.preventDefault();
     var input = $("input#numberInput").val();
     stringMaker(input);
-    $("#output").text(outputFinal);
+    $("#output").text(resultsFinal);
   });
 });
