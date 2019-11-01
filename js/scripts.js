@@ -1,19 +1,21 @@
 var resultsFinal = [];
+var input = [0,1,2,3,4]
 
 function stringMaker(input) {
-  var results = input
-  results.forEach(function(result) {
+  var results = result
     if (result[i] === 3 ) {
       resultsFinal.push("I'm sorry, Dave. I'm afraid I can't do that.")
-      console.log(results);
-    } if else (result[i] === 2){
+      return results;
+    }
+     else if (result[i] === 2){
         resultsFinal.push("boop");
-    } if else (result[i] === 1){
+    } else if (result[i] === 1){
         resultsFinal.push("Beep!");
     }
       else {
         resultsFinal.push(result);
     } return;
+    results.forEach(function(result) {
   });
   console.log(resultsFinal);
 };
