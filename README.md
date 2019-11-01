@@ -28,7 +28,8 @@ _This is a webpage ask the user to input a number and return a range of numbers 
 
 ## Known Bugs
 
-_None_
+_1 - When Numbers Beyond 103 are entered, the program doesn't sort them as desired. Either more JS code is required or the Javascript needs to be rewritten more efficiently._
+_2 - The submit/refresh button function is a little wonkey, isn't the cleanest way to clear previous results_
 
 ## Support and contact details
 
