@@ -9,10 +9,12 @@ function stringMaker(input) {
     resultsArray.unshift(i)
   };
   resultsArray.unshift(0)
-  resultsArray.forEach(result)
+  resultsArray.forEach(resultMod);
+
+  function resultMod(i){
     if (resultsArray[i] === 3 ) {
       resultsFinal.push("I'm sorry, Dave. I'm afraid I can't do that.")
-      return results;
+      return;
       console.log(resultsFinal);
     }
     else if (resultsArray[i] === 2){
@@ -23,6 +25,7 @@ function stringMaker(input) {
     else {
       resultsFinal.push(result);
     } return;
+  };
 };
 console.log(resultsArray);
 
