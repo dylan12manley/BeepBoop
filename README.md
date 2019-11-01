@@ -19,7 +19,7 @@ _This is a webpage ask the user to input a number and return a range of numbers 
 
 |Specs|Input|Output|
 |-|-|-|
-|The program recieves a number inputted by the user|"4"|"4"|
+|The program receives a number inputted by the user|"4"|"4"|
 |The program returns a range of numbers from 0 to the users inputted number|"4"|"0, 1, 2, 3, 4"|
 |All of the numbers in the string containing the digit "3" are replaced with "I'm sorry, Dave..."|"31"|"I'm sorry Dave..."|
 |Numbers containing the digit "2" are replaced with "boop"|"21"|"boop"|
