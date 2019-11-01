@@ -1,8 +1,10 @@
 var resultsFinal = [];
-// var input = [0,1,2,3,4]
 function stringMaker(input) {
   var resultsArray = [];
-  resultsArray.unshift
+  var results = 0;
+  for (var i = 0; i < input; i--){
+    resultsArray.unshift(i)
+  };
   console.log(results);
 
 };
