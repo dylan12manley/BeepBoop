@@ -18,12 +18,12 @@ function stringMaker(input) {
       console.log(resultsFinal);
     }
     else if (resultsArray[i] === 2){
-      resultsFinal.push("boop");
+      resultsFinal.push(" boop");
     } else if (resultsArray[i] === 1){
-      resultsFinal.push("Beep!");
+      resultsFinal.push(" Beep!");
     }
     else {
-      resultsFinal.push(result);
+      resultsFinal.push(i);
     } return;
   };
 };
