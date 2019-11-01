@@ -23,7 +23,8 @@ _This is a webpage ask the user to input a number and return a range of numbers 
 |The program returns a range of numbers from 0 to the users inputted number|"4"|"0, 1, 2, 3, 4"|
 |All of the numbers in the string containing the digit "3" are replaced with "I'm sorry, Dave..."|"31"|"I'm sorry Dave..."|
 |Numbers containing the digit "2" are replaced with "boop"|"21"|"boop"|
-|Numbers containing the digit "1" are replaced with "beep"|"51"|"beep"|
+|Numbers containing the digit "1" are replaced with "beep!"|"51"|"beep!"|
+|The program returns the modified string|"0, 1, 2, 3, 4"|"0", "beep!", "boop", "I'm sorry, Dave...", 4|
 
 ## Known Bugs
 
