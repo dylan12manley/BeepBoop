@@ -1,25 +1,19 @@
-//Backend//
-// var threes = (3, 13, 23, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 43, 53, 63, 73, 83, 93);
-// var twos = (2, 12, 20, 21 , 22, 24, 25 , 26, 27, 28, 29, 42, 52, 62, 72, 83, 92);
-// var ones = (1, 10, 11, 14, 15, 16, 17, 18, 19, 41, 51, 61, 71, 81, 91, 100);
-
 var resultsFinal = [];
 
 function stringMaker(input) {
-  var results = [];
-  console.log(results);
-  console.log(input);
-// for (input[i])  (i = 0; i < input.length ; i++)
+  var results = input
   results.forEach(function(result) {
-    if (input[i] === 3 ) {
+    if (result[i] === 3 ) {
       resultsFinal.push("I'm sorry, Dave. I'm afraid I can't do that.")
       console.log(results);
-    } else {
-        resultsFinal.push(result);
+    } if else (result[i] === 2){
+        resultsFinal.push("boop");
+    } if else (result[i] === 1){
+        resultsFinal.push("Beep!");
     }
-  break;
-
-
+      else {
+        resultsFinal.push(result);
+    } return;
   });
   console.log(resultsFinal);
 };
