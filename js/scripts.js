@@ -1,5 +1,6 @@
-var resultsFinal = [];
 var resultsArray = [];
+
+var resultsFinal = [];
 
 function stringMaker(input) {
   console.log(input);
@@ -8,24 +9,24 @@ function stringMaker(input) {
     resultsArray.unshift(i)
   };
   resultsArray.unshift(0)
-  console.log(resultsArray);
-
+  resultsArray.forEach(result)
+    if (resultsArray[i] === 3 ) {
+      resultsFinal.push("I'm sorry, Dave. I'm afraid I can't do that.")
+      return results;
+      console.log(resultsFinal);
+    }
+    else if (resultsArray[i] === 2){
+      resultsFinal.push("boop");
+    } else if (resultsArray[i] === 1){
+      resultsFinal.push("Beep!");
+    }
+    else {
+      resultsFinal.push(result);
+    } return;
 };
+console.log(resultsArray);
 
-//   results.forEach(function(result) {
-  // });
-// if (result[i] === 3 ) {
-  //   resultsFinal.push("I'm sorry, Dave. I'm afraid I can't do that.")
-  //   return results;
-  // }
-  //  else if (result[i] === 2){
-    //     resultsFinal.push("boop");
-    // } else if (result[i] === 1){
-      //     resultsFinal.push("Beep!");
-      // }
-      //   else {
-        //     resultsFinal.push(result);
-        // } return;
+
 
 //Font End//
 $(document).ready(function() {
@@ -36,4 +37,3 @@ $(document).ready(function() {
     $("#output").text(resultsFinal);
   });
 });
-console.log(resultsArray);
