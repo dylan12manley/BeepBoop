@@ -1,17 +1,17 @@
 var resultsFinal = [];
 var resultsArray = [];
+
 function stringMaker(input) {
   console.log(input);
-  resultsArray.unshift(input)
 
-  for (var i = 0; i < input; i--) {
+  for (var i = input; i > 0; i--) {
     resultsArray.unshift(i)
-    console.log(resultsArray);
   };
+  resultsArray.unshift(0)
+  console.log(resultsArray);
 
 };
 
-console.log(resultsArray);
 //   results.forEach(function(result) {
   // });
 // if (result[i] === 3 ) {
@@ -36,3 +36,4 @@ $(document).ready(function() {
     $("#output").text(resultsFinal);
   });
 });
+console.log(resultsArray);
