@@ -1,13 +1,17 @@
 var resultsFinal = [];
+var resultsArray = [];
 function stringMaker(input) {
-  var resultsArray = [];
-  var results = 0;
-  for (var i = 0; i < input; i--){
+  console.log(input);
+  resultsArray.unshift(input)
+
+  for (var i = 0; i < input; i--) {
     resultsArray.unshift(i)
+    console.log(resultsArray);
   };
-  console.log(results);
 
 };
+
+console.log(resultsArray);
 //   results.forEach(function(result) {
   // });
 // if (result[i] === 3 ) {
