@@ -21,6 +21,8 @@ function stringMaker(input) {
       resultsFinal.push(" Boop!");
     } else if (resultsArray[i] === 1 || resultsArray[i] > 9 && resultsArray[i] < 20 || (resultsArray[i] - 1) % 10 === 0 || resultsArray[i] > 99 && resultsArray[i] < 200 || resultsArray[i] > 999 && resultsArray[i] < 2000 || resultsArray[i] > 9999 && resultsArray[i] < 20000 || resultsArray[i] > 99999 && resultsArray[i] < 200000 ){
       resultsFinal.push(" Beep!");
+    } else if (resultsArray[i] < 1) {
+      resultsFinal.push("I'm sorry Dave, can you please enter a number greater than 0?");
     }
     else {
       resultsFinal.push(" " + i);
